@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import UIKit
+
+struct Bear{
+    var name = ""
+    var description = ""
+    var image = UIImage(named:"")
+}

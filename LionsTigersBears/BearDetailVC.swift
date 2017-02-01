@@ -10,6 +10,7 @@ import UIKit
 
 class BearDetailVC: UIViewController {
 
+    @IBOutlet weak var lblBearDetails: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

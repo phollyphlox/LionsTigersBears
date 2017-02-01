@@ -10,9 +10,12 @@ import UIKit
 
 class LionDetailsVC: UIViewController {
 
+    @IBOutlet weak var lblDetail: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        lblDetail.text = myLions[LionIndex].description
+        
         // Do any additional setup after loading the view.
     }
 
